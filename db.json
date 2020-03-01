@@ -1,0 +1,589 @@
+{
+  "BarberShopReviews": [
+    {
+      "id": 1,
+      "reviews": "Shop was great! Ask for Jimmy!",
+      "dateCreated": "2020-02-05",
+      "shopName": "Ridley's Barber Lounge",
+      "location": "Nashville, TN",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "reviews": "Great shop environment!  Shop was nice and clean. Ask for  Meek!",
+      "dateCreated": "2020-02-14",
+      "shopName": "Ridley's Barber Lounge",
+      "location": "Nashville, TN",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "reviews": "Shop was awesome! Ask for Hunt Da Barber!",
+      "dateCreated": "2020-03-01",
+      "shopName": "Fats Barbershop",
+      "location": "Antioch, TN",
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "reviews": "Great shop! Super clean and classy. Ask for Paul!",
+      "dateCreated": "2020-02-21",
+      "shopName": "Chuy's Chop Shop",
+      "location": "Houston, TX",
+      "userId": 2
+    },
+    {
+      "id": 5,
+      "reviews": "Shop was awesome! Ask for John!",
+      "dateCreated": "2020-02-17",
+      "shopName": "The Sharper Edge",
+      "location": "Houston, TX",
+      "userId": 2
+    },
+    {
+      "id": 6,
+      "reviews": "Mike's Shop was super clean. The barber were professional and quality was on point!",
+      "dateCreated": "2020-02-19",
+      "shopName": "Mike's Barber Shop",
+      "location": "Conroe, TX",
+      "userId": 2
+    },
+    {
+      "reviews": "Great shop!  Excellent customer service!",
+      "dateCreated": "2020-03-01",
+      "shopName": "Natural Beauty Natural Hair",
+      "location": "Atlanta, GA",
+      "userId": 3,
+      "id": 7
+    },
+    {
+      "reviews": "Super clean shop!",
+      "dateCreated": "2020-02-12",
+      "shopName": "Blush Dallas Salon",
+      "location": "Dallas, TX",
+      "userId": 3,
+      "id": 8
+    }
+  ],
+  "favoriteBarberShops": [
+    {
+      "shopId": "VWJlbH5kry0UlmZKJ9yqAQ",
+      "shopName": "Ridley's Barber Lounge",
+      "location": "Smyrna",
+      "rating": 5,
+      "image": "https://s3-media2.fl.yelpcdn.com/bphoto/CkN8u4BU0qnDLr8gbVb6zg/o.jpg",
+      "contact": "(615) 625-3265",
+      "street": "550 Sam Ridley Pkwy",
+      "cityStateZip": "Ste 110",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "shopId": "8IRpBkafP_sqUz__bgGWEQ",
+      "shopName": "Ahmed Barber",
+      "location": "Nashville",
+      "rating": 5,
+      "image": "https://s3-media2.fl.yelpcdn.com/bphoto/V2ddWE__-lgOB4Ad_wscYw/o.jpg",
+      "contact": "(716) 817-4530",
+      "street": "469 A bell rd",
+      "cityStateZip": "Nashville, TN 37217",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "shopId": "aJr-dX7frFwEf45_fVnPhQ",
+      "shopName": "Fats Barbershop",
+      "location": "Nashville",
+      "rating": 5,
+      "image": "",
+      "contact": "(615) 964-7064",
+      "street": "5814 Nolensville Pike",
+      "cityStateZip": "Ste 107",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "shopId": "Rlqqf3oWzuIsAz8xsg0BvA",
+      "shopName": "Pioneer Gentlemen's Barber",
+      "location": "Nashville",
+      "rating": 4.5,
+      "image": "https://s3-media3.fl.yelpcdn.com/bphoto/An7NXl9Ftt_BAIzM7Nbq0g/o.jpg",
+      "contact": "(615) 915-2763",
+      "street": "408 11th Ave S",
+      "cityStateZip": "Nashville, TN 37203",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "shopId": "jltDog3uZ0bJ45meN2bzzg",
+      "shopName": "Nwani's Barber & Style",
+      "location": "Nashville",
+      "rating": 3,
+      "image": "https://s3-media1.fl.yelpcdn.com/bphoto/iPsQkj9xSPrVvt_2Cul5tw/o.jpg",
+      "contact": "(615) 569-5262",
+      "street": "1030 Jefferson St",
+      "cityStateZip": "Nashville, TN 37208",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "shopId": "YNvbklLJd9i2B1bi8yvmLQ",
+      "shopName": "Chuy's Chop Shop",
+      "location": "Houston",
+      "rating": 5,
+      "image": "https://s3-media4.fl.yelpcdn.com/bphoto/a5BWb-K08bg9Zq9rotwIDQ/o.jpg",
+      "contact": "(832) 474-1043",
+      "street": "6736 Ave Q",
+      "cityStateZip": "Houston, TX 77011",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "shopId": "Z8BT38uerCXVMjdxyBF5Gg",
+      "shopName": "Dungeon Cuts",
+      "location": "Los Angeles",
+      "rating": 5,
+      "image": "https://s3-media2.fl.yelpcdn.com/bphoto/tBcXIwbkY2VBctCtaE4GTQ/o.jpg",
+      "contact": "(951) 796-1122",
+      "street": "612 Landfair Ave",
+      "cityStateZip": "Los Angeles, CA 90024",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "shopId": "R46FUc4t2qgg-4c5j6q00Q",
+      "shopName": "Dtla Cuts",
+      "location": "Los Angeles",
+      "rating": 4.5,
+      "image": "https://s3-media2.fl.yelpcdn.com/bphoto/PX_hrWjnAzfqEPoIrVgJEQ/o.jpg",
+      "contact": "(213) 905-0165",
+      "street": "2288 S Figueroa St",
+      "cityStateZip": "Los Angeles, CA 90007",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "shopId": "sPp4jfRrLyu9Bcf_flrFmg",
+      "shopName": "Metro Barber",
+      "location": "Dallas",
+      "rating": 4.5,
+      "image": "https://s3-media4.fl.yelpcdn.com/bphoto/6i2CcnjNNqMA_tzH0PtZ2w/o.jpg",
+      "contact": "(806) 626-7128",
+      "street": "6465 E Mockingbird Ln",
+      "cityStateZip": "Ste 12",
+      "userId": 2,
+      "id": 9
+    },
+    {
+      "shopId": "mXtiB0iYA0K94fRQPuMIpQ",
+      "shopName": "June Street Barber Shop",
+      "location": "Dallas",
+      "rating": 4,
+      "image": "https://s3-media1.fl.yelpcdn.com/bphoto/FEKJlgTgeeNI4dqtcVhUuA/o.jpg",
+      "contact": "(469) 372-7505",
+      "street": "4021 Belt Line Rd",
+      "cityStateZip": "Ste 208",
+      "userId": 2,
+      "id": 10
+    },
+    {
+      "shopId": "2MbMjjd8DsZQfhtx9WKrLw",
+      "shopName": "Galindo's Barbershop",
+      "location": "Magnolia",
+      "rating": 4.5,
+      "image": "https://s3-media3.fl.yelpcdn.com/bphoto/VCh5l2Ca5939HrkFJ9LLxg/o.jpg",
+      "contact": "(281) 789-4672",
+      "street": "9311 Fm 1488",
+      "cityStateZip": "Ste 80",
+      "userId": 2,
+      "id": 11
+    },
+    {
+      "shopId": "dq6q5B73D_RqU7EzsqmrOQ",
+      "shopName": "Faded Glory Barbershop",
+      "location": "Conroe",
+      "rating": 4.5,
+      "image": "https://s3-media1.fl.yelpcdn.com/bphoto/83AzhmysbIZ6u8wk2bulwQ/o.jpg",
+      "contact": "(832) 652-9509",
+      "street": "27622 I 45N",
+      "cityStateZip": "Conroe, TX 77385",
+      "userId": 2,
+      "id": 12
+    },
+    {
+      "shopId": "wObkZ56FxCI1sHB_VpwKGg",
+      "shopName": "Galindo's Barbershop",
+      "location": "Conroe",
+      "rating": 4,
+      "image": "https://s3-media1.fl.yelpcdn.com/bphoto/th7BL0J7gCv4O0POaF0VGg/o.jpg",
+      "contact": "(936) 703-6189",
+      "street": "2400 Fm Rd 1488",
+      "cityStateZip": "Ste 125",
+      "userId": 2,
+      "id": 13
+    },
+    {
+      "shopId": "21rYJ4HUP8JIi2sHiI7bDQ",
+      "shopName": "Mike's Barber Shop",
+      "location": "Conroe",
+      "rating": 2.5,
+      "image": "https://s3-media4.fl.yelpcdn.com/bphoto/50ny9HgUZS8NZvLxyE02AQ/o.jpg",
+      "contact": "(936) 242-0008",
+      "street": "2105 W Davis St",
+      "cityStateZip": "Ste C",
+      "userId": 2,
+      "id": 14
+    },
+    {
+      "shopId": "YNvbklLJd9i2B1bi8yvmLQ",
+      "shopName": "Chuy's Chop Shop",
+      "location": "Houston",
+      "rating": 5,
+      "image": "https://s3-media4.fl.yelpcdn.com/bphoto/a5BWb-K08bg9Zq9rotwIDQ/o.jpg",
+      "contact": "(832) 474-1043",
+      "street": "6736 Ave Q",
+      "cityStateZip": "Houston, TX 77011",
+      "userId": 2,
+      "id": 15
+    },
+    {
+      "shopId": "05DGEc0U81gVK3XuLNChlw",
+      "shopName": "The Sharper Edge",
+      "location": "Houston",
+      "rating": 4.5,
+      "image": "https://s3-media2.fl.yelpcdn.com/bphoto/3HeANCw5O9j3e0q1Ez8QkA/o.jpg",
+      "contact": "(713) 460-6526",
+      "street": "7306 W Tidwell Rd",
+      "cityStateZip": "Ste B",
+      "userId": 2,
+      "id": 16
+    },
+    {
+      "shopId": "EmGyEeAEyK5lOAwZWpDwSA",
+      "shopName": "Bithia Hair Braiding",
+      "location": "Dallas",
+      "rating": 4.5,
+      "image": "https://s3-media2.fl.yelpcdn.com/bphoto/lrlEa9a9HMEUBjN4nM-Tjg/o.jpg",
+      "contact": "(214) 283-3909",
+      "street": "10729 Audelia Rd",
+      "cityStateZip": "Ste 105",
+      "userId": 3,
+      "id": 17
+    },
+    {
+      "shopId": "68ITAfmjE4wxv6TpwzQXnA",
+      "shopName": "Blush Dallas Salon",
+      "location": "Dallas",
+      "rating": 4.5,
+      "image": "https://s3-media4.fl.yelpcdn.com/bphoto/A0qvV2pyWJ1ISUZCeq-Pgw/o.jpg",
+      "contact": "(214) 941-4557",
+      "street": "1212 S Riverfront Blvd",
+      "cityStateZip": "Ste 150",
+      "userId": 3,
+      "id": 18
+    },
+    {
+      "shopId": "nvHWv9rHt1afjJAW4TalIw",
+      "shopName": "ERA Salon",
+      "location": "Dallas",
+      "rating": 5,
+      "image": "https://s3-media1.fl.yelpcdn.com/bphoto/QjcJ_qNFApgWA-Bbx2_JSg/o.jpg",
+      "contact": "(214) 520-6767",
+      "street": "4023 Oak Lawn Ave",
+      "cityStateZip": "Ste 120",
+      "userId": 3,
+      "id": 19
+    },
+    {
+      "shopId": "NrrygWl8T3dPlKIKG-XtEg",
+      "shopName": "Level 101",
+      "location": "Dallas",
+      "rating": 5,
+      "image": "https://s3-media1.fl.yelpcdn.com/bphoto/jf986I7E_WRCgZ5ZH7s-3Q/o.jpg",
+      "contact": "(214) 836-9594",
+      "street": "2928 Main St",
+      "cityStateZip": "Ste 101",
+      "userId": 3,
+      "id": 20
+    },
+    {
+      "shopId": "9-L8dSkdvhopEJVCUCR8RQ",
+      "shopName": "Egyptian Hair Styles",
+      "location": "Atlanta",
+      "rating": 5,
+      "image": "https://s3-media2.fl.yelpcdn.com/bphoto/8jig0iFiqV8gQhqw6_6fyQ/o.jpg",
+      "contact": "(404) 346-8939",
+      "street": "3655 Marketplace Blvd",
+      "cityStateZip": "Ste 250",
+      "userId": 3,
+      "id": 21
+    },
+    {
+      "shopId": "oZVdJrdZYcEQ0J2pnLTVuQ",
+      "shopName": "The Mane Tamer Hair Spa & Extension Bar",
+      "location": "Forest Park",
+      "rating": 5,
+      "image": "https://s3-media4.fl.yelpcdn.com/bphoto/-rtdLkctdvG3BuIom58thA/o.jpg",
+      "contact": "(770) 882-7078",
+      "street": "4035 Jonesboro Rd",
+      "cityStateZip": "Ste 242",
+      "userId": 3,
+      "id": 22
+    },
+    {
+      "shopId": "Elhrcu2qHF5jJaJU3eefaQ",
+      "shopName": "Priv",
+      "location": "Atlanta",
+      "rating": 5,
+      "image": "https://s3-media2.fl.yelpcdn.com/bphoto/H19AxRgK1LINTnByuCrmAw/o.jpg",
+      "contact": "",
+      "street": "Atlanta, GA 30301",
+      "userId": 3,
+      "id": 23
+    },
+    {
+      "shopId": "DvSmJeGNUU6vaV2ie2Qt2Q",
+      "shopName": "Natural Beauty Natural Hair",
+      "location": "Atlanta",
+      "rating": 3.5,
+      "image": "https://s3-media3.fl.yelpcdn.com/bphoto/Z7eEWhFzQZfkNkZYW8BY8w/o.jpg",
+      "contact": "(678) 851-3195",
+      "street": "1005 Moreland Ave SE",
+      "cityStateZip": "Atlanta, GA 30316",
+      "userId": 3,
+      "id": 24
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Barbershop"
+    },
+    {
+      "id": 2,
+      "name": "Salon"
+    }
+  ],
+  "states": [
+    {
+      "id": 1,
+      "name": "AL"
+    },
+    {
+      "id": 2,
+      "name": "AK"
+    },
+    {
+      "id": 3,
+      "name": "AZ"
+    },
+    {
+      "id": 4,
+      "name": "AR"
+    },
+    {
+      "id": 5,
+      "name": "CA"
+    },
+    {
+      "id": 6,
+      "name": "CO"
+    },
+    {
+      "id": 7,
+      "name": "CT"
+    },
+    {
+      "id": 8,
+      "name": "DE"
+    },
+    {
+      "id": 9,
+      "name": "FL"
+    },
+    {
+      "id": 10,
+      "name": "GA"
+    },
+    {
+      "id": 11,
+      "name": "HI"
+    },
+    {
+      "id": 12,
+      "name": "ID"
+    },
+    {
+      "id": 13,
+      "name": "IL"
+    },
+    {
+      "id": 14,
+      "name": "IN"
+    },
+    {
+      "id": 15,
+      "name": "IA"
+    },
+    {
+      "id": 16,
+      "name": "KS"
+    },
+    {
+      "id": 17,
+      "name": "KY"
+    },
+    {
+      "id": 18,
+      "name": "LA"
+    },
+    {
+      "id": 19,
+      "name": "ME"
+    },
+    {
+      "id": 20,
+      "name": "MD"
+    },
+    {
+      "id": 21,
+      "name": "MA"
+    },
+    {
+      "id": 22,
+      "name": "MI"
+    },
+    {
+      "id": 23,
+      "name": "MN"
+    },
+    {
+      "id": 24,
+      "name": "MS"
+    },
+    {
+      "id": 25,
+      "name": "MO"
+    },
+    {
+      "id": 26,
+      "name": "MT"
+    },
+    {
+      "id": 27,
+      "name": "NE"
+    },
+    {
+      "id": 28,
+      "name": "NV"
+    },
+    {
+      "id": 29,
+      "name": "NH"
+    },
+    {
+      "id": 30,
+      "name": "NJ"
+    },
+    {
+      "id": 31,
+      "name": "NM"
+    },
+    {
+      "id": 32,
+      "name": "NY"
+    },
+    {
+      "id": 33,
+      "name": "NC"
+    },
+    {
+      "id": 34,
+      "name": "ND"
+    },
+    {
+      "id": 35,
+      "name": "OH"
+    },
+    {
+      "id": 36,
+      "name": "OK"
+    },
+    {
+      "id": 37,
+      "name": "OR"
+    },
+    {
+      "id": 38,
+      "name": "PA"
+    },
+    {
+      "id": 39,
+      "name": "RI"
+    },
+    {
+      "id": 40,
+      "name": "SC"
+    },
+    {
+      "id": 41,
+      "name": "SD"
+    },
+    {
+      "id": 42,
+      "name": "TN"
+    },
+    {
+      "id": 43,
+      "name": "TX"
+    },
+    {
+      "id": 44,
+      "name": "UT"
+    },
+    {
+      "id": 45,
+      "name": "VT"
+    },
+    {
+      "id": 46,
+      "name": "VA"
+    },
+    {
+      "id": 47,
+      "name": "WA"
+    },
+    {
+      "id": 48,
+      "name": "WV"
+    },
+    {
+      "id": 49,
+      "name": "WI"
+    },
+    {
+      "id": 50,
+      "name": "WY"
+    }
+  ],
+  "users": [
+    {
+      "email": "onterio@me.com",
+      "password": "123",
+      "userName": "Onterio",
+      "id": 1
+    },
+    {
+      "email": "akemo@me.com",
+      "password": "123",
+      "userName": "Akemo",
+      "id": 2
+    },
+    {
+      "email": "danyeal@me.com",
+      "password": "123",
+      "userName": "Danyeal",
+      "id": 3
+    }
+  ]
+}
